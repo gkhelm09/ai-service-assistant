@@ -13,6 +13,27 @@ chmod +x run.sh
 
 Then open the URL shown in your terminal (usually http://localhost:8501).
 
+## Docker Setup
+
+To run the app in a containerized environment:
+
+1. **Install Docker Desktop** from https://www.docker.com/products/docker-desktop (if not already installed)
+
+2. **Build the image:**
+   ```bash
+   docker compose build
+   ```
+
+3. **Run the container with your OpenAI API key:**
+   ```bash
+   export OPENAI_API_KEY="your-openai-api-key-here"
+   docker compose up
+   ```
+
+4. **Access the app** at http://localhost:8501
+
+**Security Note:** The `OPENAI_API_KEY` is passed as an environment variable at runtime and is never baked into the Docker image.
+
 ## Manual Setup
 
 1. Create and activate a virtual environment:
