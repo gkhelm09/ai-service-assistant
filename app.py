@@ -31,6 +31,11 @@ with title_col:
         unsafe_allow_html=True,
     )
 st.caption("Enter an equipment problem to receive AI troubleshooting guidance.")
+st.info(
+    "Privacy notice: Do not enter patient identifiers or PHI, confidential service "
+    "information, or other sensitive data. Troubleshooting descriptions are sent "
+    "to an external AI service."
+)
 
 with st.form("problem_form"):
     equipment_type = st.selectbox(

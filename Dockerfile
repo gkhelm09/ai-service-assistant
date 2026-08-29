@@ -14,4 +14,4 @@ COPY assets/ ./assets/
 EXPOSE 8501
 
 # Run Streamlit in headless mode
-CMD ["streamlit", "run", "app.py", "--server.headless", "true", "--server.port", "8501"]
+CMD ["streamlit", "run", "app.py", "--server.headless", "true", "--server.address", "0.0.0.0", "--server.port", "8501"]

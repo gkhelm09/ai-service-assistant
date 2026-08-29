@@ -1,6 +1,6 @@
 # AI BioMed Assistant
 
-A simple Streamlit web application that helps biomedical technician and field service engineers troubleshoot equipment problems. Responses are simulated locally—no external AI API is required.
+A simple Streamlit web application that helps biomedical technician and field service engineers troubleshoot equipment problems. Troubleshooting requests are sent to the OpenAI API for response generation.
 
 ## Quick Start (easiest)
 
