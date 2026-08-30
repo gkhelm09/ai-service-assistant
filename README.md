@@ -2,6 +2,20 @@
 
 A simple Streamlit web application that helps biomedical technician and field service engineers troubleshoot equipment problems. Troubleshooting requests are sent to the OpenAI API for response generation.
 
+## Live Demo
+
+Try the deployed app here:
+
+https://gkhelm09-ai-service-assistant-app-mh4gr2.streamlit.app/
+
+## Demo Disclaimer
+
+This project is a portfolio prototype for AI-assisted biomedical equipment troubleshooting.
+
+It is not a replacement for manufacturer service documentation, hospital policy, qualified technical judgment, or required safety procedures.
+
+Do not enter patient identifiers, PHI, confidential service information, or other sensitive data into the demo.
+
 ## Quick Start (easiest)
 
 From the project folder:
